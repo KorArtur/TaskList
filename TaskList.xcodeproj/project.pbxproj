@@ -14,6 +14,7 @@
 		A80708B92BB5DAD000128186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80708B82BB5DAD000128186 /* Assets.xcassets */; };
 		A80708BC2BB5DAD000128186 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A80708BB2BB5DAD000128186 /* Base */; };
 		A80708C62BB5EAB200128186 /* FilledButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80708C52BB5EAB200128186 /* FilledButtonFactory.swift */; };
+		F185101C2BB75599004DBF3C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185101B2BB75599004DBF3C /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A80708BB2BB5DAD000128186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A80708BD2BB5DAD000128186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A80708C52BB5EAB200128186 /* FilledButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonFactory.swift; sourceTree = "<group>"; };
+		F185101B2BB75599004DBF3C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				A80708AC2BB5DACF00128186 /* AppDelegate.swift */,
 				A80708AE2BB5DACF00128186 /* SceneDelegate.swift */,
+				F185101B2BB75599004DBF3C /* StorageManager.swift */,
 				A80708B02BB5DACF00128186 /* TaskListViewController.swift */,
 				A80708C52BB5EAB200128186 /* FilledButtonFactory.swift */,
 				A80708B52BB5DACF00128186 /* TaskList.xcdatamodeld */,
@@ -143,6 +146,7 @@
 				A80708B72BB5DACF00128186 /* TaskList.xcdatamodeld in Sources */,
 				A80708C62BB5EAB200128186 /* FilledButtonFactory.swift in Sources */,
 				A80708B12BB5DACF00128186 /* TaskListViewController.swift in Sources */,
+				F185101C2BB75599004DBF3C /* StorageManager.swift in Sources */,
 				A80708AD2BB5DACF00128186 /* AppDelegate.swift in Sources */,
 				A80708AF2BB5DACF00128186 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,6 +300,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
